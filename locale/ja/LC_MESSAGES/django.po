@@ -1,0 +1,473 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-26 00:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: netbox_topology_views/forms.py:40
+msgid "Options"
+msgstr "オプション"
+
+#: netbox_topology_views/forms.py:42 netbox_topology_views/forms.py:63
+msgid "Device"
+msgstr "デバイス"
+
+#: netbox_topology_views/forms.py:43 netbox_topology_views/forms.py:102
+msgid "Location"
+msgstr "ロケーション"
+
+#: netbox_topology_views/forms.py:44
+msgid "Operation"
+msgstr "オペレーション"
+
+#: netbox_topology_views/forms.py:45
+msgid "Hardware"
+msgstr "ハードウェア"
+
+#: netbox_topology_views/forms.py:46
+msgid "Tenant"
+msgstr "テナント"
+
+#: netbox_topology_views/forms.py:47
+msgid "Contacts"
+msgstr "連絡先"
+
+#: netbox_topology_views/forms.py:49
+msgid "Components"
+msgstr "コンポーネント"
+
+#: netbox_topology_views/forms.py:52
+msgid "Miscellaneous"
+msgstr "その他"
+
+#: netbox_topology_views/forms.py:58
+msgid "Coordinate group"
+msgstr "座標グループ"
+
+#: netbox_topology_views/forms.py:78
+msgid "Region"
+msgstr "リージョン"
+
+#: netbox_topology_views/forms.py:83
+msgid "Site Group"
+msgstr "サイトグループ"
+
+#: netbox_topology_views/forms.py:92
+msgid "Site"
+msgstr "サイト"
+
+#: netbox_topology_views/forms.py:113
+msgid "Rack"
+msgstr "ラック"
+
+#: netbox_topology_views/forms.py:118
+msgid "Device Status"
+msgstr "デバイスステータス"
+
+#: netbox_topology_views/forms.py:123
+msgid "Role"
+msgstr "ロール"
+
+#: netbox_topology_views/forms.py:126
+msgid "Airflow"
+msgstr "エアフロー"
+
+#: netbox_topology_views/forms.py:131
+msgid "Serial"
+msgstr "シリアル番号"
+
+#: netbox_topology_views/forms.py:135
+msgid "Asset tag"
+msgstr "アセットタグ"
+
+#: netbox_topology_views/forms.py:140
+msgid "MAC address"
+msgstr "MACアドレス"
+
+#: netbox_topology_views/forms.py:145
+msgid "Manufacturer"
+msgstr "メーカー"
+
+#: netbox_topology_views/forms.py:153
+msgid "Model"
+msgstr "モデル"
+
+#: netbox_topology_views/forms.py:159
+msgid "Platform"
+msgstr "プラットフォーム"
+
+#: netbox_topology_views/forms.py:163
+msgid "Has console ports"
+msgstr "コンソールポート"
+
+#: netbox_topology_views/forms.py:170
+msgid "Has console server ports"
+msgstr "コンソールサーバーポートあり"
+
+#: netbox_topology_views/forms.py:177
+msgid "Has power ports"
+msgstr "電源ポートあり"
+
+#: netbox_topology_views/forms.py:184
+msgid "Has power outlets"
+msgstr "電源コンセントあり"
+
+#: netbox_topology_views/forms.py:191
+msgid "Has interfaces"
+msgstr "インターフェースあり"
+
+#: netbox_topology_views/forms.py:198
+msgid "Has pass-through ports"
+msgstr "パススルーポートあり"
+
+#: netbox_topology_views/forms.py:206
+msgid "Config template"
+msgstr "設定テンプレート"
+
+#: netbox_topology_views/forms.py:210
+msgid "Has a primary IP"
+msgstr "プライマリ IPあり"
+
+#: netbox_topology_views/forms.py:217
+msgid "Has an OOB IP"
+msgstr "Out-of-band IPあり"
+
+#: netbox_topology_views/forms.py:224
+msgid "Virtual chassis member"
+msgstr "バーチャルシャーシに属する"
+
+#: netbox_topology_views/forms.py:234 netbox_topology_views/forms.py:545
+msgid "Ignore Termination Types"
+msgstr "終端タイプを無視する"
+
+#: netbox_topology_views/forms.py:239 netbox_topology_views/forms.py:567
+msgid "Save Coordinates"
+msgstr "座標を保存する"
+
+#: netbox_topology_views/forms.py:248 netbox_topology_views/forms.py:576
+msgid "Show Unconnected"
+msgstr "未接続を表示する"
+
+#: netbox_topology_views/forms.py:259 netbox_topology_views/forms.py:584
+msgid "Show Cables"
+msgstr "ケーブルを表示する"
+
+#: netbox_topology_views/forms.py:266 netbox_topology_views/forms.py:592
+msgid "Show Logical Connections"
+msgstr "論理的な接続を表示する"
+
+#: netbox_topology_views/forms.py:272
+msgid "Show redundant Cable and Logical Connection"
+msgstr "冗長なケーブルと論理的な接続を表示する"
+
+#: netbox_topology_views/forms.py:278 netbox_topology_views/forms.py:609
+msgid "Show Neighbors"
+msgstr "隣り合う項目を表示する"
+
+#: netbox_topology_views/forms.py:284 netbox_topology_views/forms.py:617
+msgid "Show Circuit Terminations"
+msgstr "回路終端を表示する"
+
+#: netbox_topology_views/forms.py:290 netbox_topology_views/forms.py:624
+msgid "Show Power Feeds"
+msgstr "電源タップを表示する"
+
+#: netbox_topology_views/forms.py:296 netbox_topology_views/forms.py:632
+msgid "Show Wireless Links"
+msgstr "無線リンクを表示する"
+
+#: netbox_topology_views/forms.py:302 netbox_topology_views/forms.py:639
+msgid "Group Sites"
+msgstr "サイトをグループ化して表示する"
+
+#: netbox_topology_views/forms.py:308 netbox_topology_views/forms.py:646
+msgid "Group Locations"
+msgstr "ロケーションをグループ化して表示する"
+
+#: netbox_topology_views/forms.py:314 netbox_topology_views/forms.py:653
+msgid "Group Racks"
+msgstr "ラックをグループ化して表示する"
+
+#: netbox_topology_views/forms.py:320 netbox_topology_views/forms.py:660
+msgid "Group Virtual Chassis"
+msgstr "バーチャルシャーシをグループ化して表示する"
+
+#: netbox_topology_views/forms.py:326
+msgid "Straight Cables"
+msgstr "ケーブルを直線で描画する"
+
+#: netbox_topology_views/forms.py:332 netbox_topology_views/forms.py:681
+msgid "Grid Size"
+msgstr "グリッドのサイズ"
+
+#: netbox_topology_views/forms.py:337
+msgid ""
+"Show grid and snap dragged icons to grid. Set to 0 to disable grid and "
+"snapping."
+msgstr ""
+"グリッドを表示し、ドラッグしたアイコンをグリッドにスナップします。0 に設定するとグリッドとスナップを無効にします。"
+
+#: netbox_topology_views/forms.py:340 netbox_topology_views/forms.py:691
+msgid "Node Label Items"
+msgstr "ノードラベル項目"
+
+#: netbox_topology_views/forms.py:347
+msgid "Group Details"
+msgstr "グループ詳細"
+
+#: netbox_topology_views/forms.py:361
+msgid "Circuit Coordinate"
+msgstr "回路座標"
+
+#: netbox_topology_views/forms.py:370
+msgid "Power Panel"
+msgstr "電源パネル"
+
+#: netbox_topology_views/forms.py:379
+msgid "PowerFeed Coordinate"
+msgstr "電源タップ座標"
+
+#: netbox_topology_views/forms.py:388
+msgid "Coordinate"
+msgstr "座標"
+
+#: netbox_topology_views/forms.py:419 netbox_topology_views/navigation.py:94
+msgid "Circuit Coordinates"
+msgstr "回路座標"
+
+#: netbox_topology_views/forms.py:444
+msgid "PowerPanel Coordinates"
+msgstr "電源パネル座標"
+
+#: netbox_topology_views/forms.py:469
+msgid "PowerFeed Coordinates"
+msgstr "電源タップ座標"
+
+#: netbox_topology_views/forms.py:494
+msgid "Coordinates"
+msgstr "座標"
+
+#: netbox_topology_views/forms.py:548
+msgid ""
+"Choose Termination Types that you want to be ignored. If any ignored "
+"Termination Type is part of a connection, the cable is not displayed."
+msgstr ""
+"グリッドを表示し、ドラッグしたアイコンをグリッドにスナップします。0 に設定するとグリッドとスナップを無効にします。"
+
+#: netbox_topology_views/forms.py:553
+msgid "Preselected Device Role"
+msgstr "選択済みデバイスロール"
+
+#: netbox_topology_views/forms.py:556
+msgid ""
+"Select Device Roles that you want to have preselected in the filter tab."
+msgstr ""
+"フィルタタブで事前に選択しておきたいデバイスロールを指定します。"
+
+#: netbox_topology_views/forms.py:560
+msgid "Preselected Tags"
+msgstr "選択済みタグ"
+
+#: netbox_topology_views/forms.py:563
+msgid "Select Tags that you want to have preselected in the filter tab."
+msgstr ""
+"フィルタタブで事前に選択しておきたいタグを指定します。"
+
+#: netbox_topology_views/forms.py:570
+msgid ""
+"Coordinates of nodes will be saved if dragged to a different position. This "
+"option depends on parameters set in the config file. It has no effect if "
+"'allow_coordinates_saving' has not been set or  'always_save_coordinates' "
+"has been set."
+msgstr ""
+"ノードを別の位置にドラッグした場合、その座標を保存します。このオプションは設定ファイル内のパラメータに依存します。"
+"'allow_coordinates_saving' が設定されていない場合や、"
+"'always_save_coordinates' が設定されている場合、このオプションは効果がありません。"
+
+#: netbox_topology_views/forms.py:579
+msgid ""
+"Draws devices that have no connections or for which no connection is "
+"displayed. This option depends on other parameters like 'Show Cables' and "
+"'Show Logical Connections'."
+msgstr ""
+"接続が存在しない、または接続が表示されていないデバイスを描画します。このオプションは"
+"'ケーブルを表示する' や '論理的な接続を表示する' などの他の設定に依存します。"
+
+#: netbox_topology_views/forms.py:587
+msgid ""
+"Displays connections between interfaces that are connected with one or more "
+"cables. These connections are displayed as solid lines in the color of the "
+"cable."
+msgstr ""
+"1 本以上のケーブルで接続されているインターフェース間の接続を表示します。"
+"これらの接続はケーブルの色で実線として表示されます。"
+
+#: netbox_topology_views/forms.py:595
+msgid ""
+"Displays connections between devices that are not directly connected (e.g. "
+"via patch panels). These connections are displayed as yellow dotted lines."
+msgstr ""
+"パッチパネルなどを介して間接的に接続されているデバイス間の接続を表示します。"
+"これらの接続は黄色の点線で表示されます。"
+
+#: netbox_topology_views/forms.py:603
+msgid ""
+"Shows a logical connection (in addition to a cable), even if a cable is "
+"directly connected. Leaving this option disabled prevents that redundant "
+"display. This option only has an effect if 'Show Logical Connections' is "
+"activated."
+msgstr ""
+"ケーブルで直接接続されている場合でも、論理的な接続を追加で表示します。"
+"このオプションを無効にすると冗長な表示を防ぐことができます。"
+"'論理的な接続を表示する' が有効な場合のみ効果があります。"
+
+#: netbox_topology_views/forms.py:612
+msgid ""
+"Adds neighbors to the filter result set automatically. Link peers will be "
+"added if 'Show Cables' is ticked, far-end terminations will be added if "
+"'Show Logical Connections' is ticked."
+msgstr ""
+"フィルタ結果に隣接する項目を自動的に追加します。"
+"'ケーブルを表示する' が有効な場合はリンク先が、"
+"'論理的な接続を表示する' が有効な場合は遠端の終端が追加されます。"
+
+#: netbox_topology_views/forms.py:620
+msgid ""
+"Displays connections between circuit terminations. These connections are "
+"displayed as blue dashed lines."
+msgstr ""
+"回路終端間の接続を表示します。これらの接続は青色の破線で表示されます。"
+
+#: netbox_topology_views/forms.py:627
+msgid ""
+"Displays connections between power outlets and power ports. These "
+"connections are displayed as solid lines in the color of the cable. This "
+"option depends on 'Show Cables'."
+msgstr ""
+"電源コンセントと電源ポート間の接続を表示します。"
+"これらの接続はケーブルの色で実線として表示されます。"
+"このオプションは 'ケーブルを表示する' に依存します。"
+
+#: netbox_topology_views/forms.py:635
+msgid ""
+"Displays wireless connections. These connections are displayed as blue "
+"dotted lines."
+msgstr ""
+"無線接続を表示します。これらの接続は青色の点線で表示されます。"
+
+#: netbox_topology_views/forms.py:642
+msgid "Draws a rectangle around Devices that belong to the same site."
+msgstr "同じサイトに属するデバイスを囲む矩形を描画します。"
+
+#: netbox_topology_views/forms.py:649
+msgid "Draws a rectangle around Devices that belong to the same location."
+msgstr "同じロケーションに属するデバイスを囲む矩形を描画します。"
+
+#: netbox_topology_views/forms.py:656
+msgid "Draws a rectangle around Devices that belong to the same rack."
+msgstr "同じラックに属するデバイスを囲む矩形を描画します。"
+
+#: netbox_topology_views/forms.py:663
+msgid ""
+"Draws a rectangle around Devices that belong to the same virtual chassis."
+msgstr ""
+"同じバーチャルシャーシに属するデバイスを囲む矩形を描画します。"
+
+#: netbox_topology_views/forms.py:670
+msgid ""
+"Enable this option if you want to draw the topology on the initial load "
+"(when you go to the topology plugin page)."
+msgstr ""
+"トポロジープラグインページを開いた際に、初期表示時からトポロジーを描画する場合に有効にします。"
+
+#: netbox_topology_views/forms.py:677
+msgid ""
+"Enable this option if you want to draw cables as straight lines instead of "
+"curves."
+msgstr ""
+"ケーブルを曲線ではなく直線で描画したい場合に有効にします。"
+
+#: netbox_topology_views/forms.py:686
+msgid ""
+"Default grid value. Set to 0 to disable grid. Integers between 0 and 1000 "
+"are allowed. Snap to grid will be automatically enabled for values > 0."
+msgstr ""
+"デフォルトのグリッドサイズです。0 に設定するとグリッドを無効にします。"
+"0 から 1000 の整数が指定できます。0 より大きい値の場合、自動的にグリッドへのスナップが有効になります。"
+
+#: netbox_topology_views/forms.py:694
+msgid "Choose Label Items that you want to be displayed."
+msgstr "表示したいラベル項目を選択します。"
+
+#: netbox_topology_views/navigation.py:7 netbox_topology_views/navigation.py:22
+#: netbox_topology_views/navigation.py:37
+#: netbox_topology_views/navigation.py:52
+#: netbox_topology_views/navigation.py:67
+msgid "Add"
+msgstr "追加"
+
+#: netbox_topology_views/navigation.py:13
+#: netbox_topology_views/navigation.py:28
+#: netbox_topology_views/navigation.py:43
+#: netbox_topology_views/navigation.py:58
+#: netbox_topology_views/navigation.py:73
+msgid "Import"
+msgstr "インポート"
+
+#: netbox_topology_views/navigation.py:80
+msgid "Topology Views"
+msgstr "トポロジービュー"
+
+#: netbox_topology_views/navigation.py:83
+msgid "TOPOLOGY"
+msgstr "トポロジー"
+
+#: netbox_topology_views/navigation.py:85
+msgid "Topology"
+msgstr "トポロジー"
+
+#: netbox_topology_views/navigation.py:88
+msgid "COORDINATES"
+msgstr "座標"
+
+#: netbox_topology_views/navigation.py:90
+msgid "Coordinate Groups"
+msgstr "座標グループ"
+
+#: netbox_topology_views/navigation.py:91
+msgid "Device Coordinates"
+msgstr "デバイス座標"
+
+#: netbox_topology_views/navigation.py:92
+msgid "Power Feed Coords"
+msgstr "電源タップ座標"
+
+#: netbox_topology_views/navigation.py:93
+msgid "Power Panel Coords"
+msgstr "電源パネル座標"
+
+#: netbox_topology_views/navigation.py:97
+msgid "PREFERENCES"
+msgstr "設定"
+
+#: netbox_topology_views/navigation.py:99
+msgid "Images"
+msgstr "画像"
+
+#: netbox_topology_views/navigation.py:100
+msgid "Individual Options"
+msgstr "共通設定"
